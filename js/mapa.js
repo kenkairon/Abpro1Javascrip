@@ -2,18 +2,18 @@
 const regionesDeChile = [
     {
     nombre: 'Arica y Parinacota',
-    atractivos: 'Parque Nacional Lauca',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Parque_Nacional_Lauca_-_panoramio.jpg'
+    atractivos: 'Morro de Arica',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/MORRO_DE_ARICA_%285566553158%29.jpg'
     },
     {
     nombre: 'Tarapacá',
-    atractivos: 'Oasis de Pica',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Oasis_de_Pica._I_regi%C3%B3n..jpg'
+    atractivos: 'Oficina Salitrera Humberstone',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/8/8f/PASAJES_DE_OFICINA_SALITRERA_SANTIAGO_HUMBERSTONE.jpg'
     },
     {
     nombre: 'Antofagasta',
     atractivos: 'El Valle de la luna',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/4/46/El_Valle_de_la_Luna_16.jpg'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Valle_de_la_Luna_.jpg'
     },
     {
     nombre: 'Atacama',
@@ -28,22 +28,22 @@ const regionesDeChile = [
     {
     nombre: 'Valparaíso',
     atractivos: 'Cerro Alegre',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Cerro_Alegre_January_2012_05.jpg'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Hotel_Sutherland_House_Valparaiso.jpg'
     },
     {
     nombre:  'Metropolitana de Santiago',
-    atractivos: 'Metropolitana de Santiago',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Caj%C3%B3n_Del_Maipo%2C_Regi%C3%B3n_Metropolitana%2C_Chile_-_panoramio.jpg'
+    atractivos: 'Cajon del Maipo',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Cajon_del_Maipo.jpg'
     },
     {
     nombre:  'Libertador General Bernardo O\'Higgins',
     atractivos: 'Parque Safari Chile.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/0/02/SP_-_Parque_Estadual_das_Fontes_do_Ipiranga_-_Zoo_Saf%C3%A1ri_-_Zoo_Saf%C3%A1ri_-_Lhama.jpg'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Museo_Colchagua_Santa_Cruz.jpg'
     },
     {
     nombre: 'Maule',
     atractivos: 'Lago Cobún',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Lago_Colbun_-_panoramio.jpg'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Lago_Colb%C3%BAn.jpg'
     },
     {
     nombre: 'Ñuble',
@@ -52,33 +52,33 @@ const regionesDeChile = [
     },
     {
     nombre: 'Biobío',
-    atractivos: 'Conocer el segundo Chile',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chenqueco.JPG/480px-Chenqueco.JPG'
+    atractivos: 'San Pedro de la Paz',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Chile%2C_San_Pedro_de_la_Paz_%2828998381377%29.jpg'
     },
     {
     nombre: 'La Araucanía',
-    atractivos: 'Que quede la Zorra en el Campo',
+    atractivos: 'Parque Nacional',
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Araucaria_araucana_-_Parque_Nacional_Conguill%C3%ADo_por_lautaroj_-_001.jpg/480px-Araucaria_araucana_-_Parque_Nacional_Conguill%C3%ADo_por_lautaroj_-_001.jpg'
     },
     {
     nombre: 'Los Ríos',
-    atractivos: 'Agüita por todos lados',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chenqueco.JPG/480px-Chenqueco.JPG'
+    atractivos: 'Cerveceria Kunstmann',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Entrada_Cervecer%C3%ADa_Kunstmann.jpg'
     },
     {
     nombre: 'Los Lagos',
-    atractivos: 'Mucha más Agua que en los Ríos',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Catedral_de_Osorno%2C_Osorno%2C_Chile1.jpg/480px-Catedral_de_Osorno%2C_Osorno%2C_Chile1.jpg'
+    atractivos: 'Cerro Tronador',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Cerro_tronador_desde_lago_mascardi_01b.jpg'
     },
     {
     nombre:  'Aysén del General Carlos Ibáñez del Campo',
-    atractivos: 'Pastar como Vaca',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/.00_3210_Puerto_Chacabuco_-_Chile.jpg/480px-.00_3210_Puerto_Chacabuco_-_Chile.jpg'
+    atractivos: 'Catedral de Marmol',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Catedral_de_Marmol.jpg'
     },
     {
-    nonbre: 'Magallanes',
-    atractivos: 'Estar fuera de Chile',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Glaciar_Serrano%2C_Laguna_Serrano%2C_a_4_horas_de_Puerto_Natales%2C_Magallanes%2C_sur_de_Chile.jpg/480px-Glaciar_Serrano%2C_Laguna_Serrano%2C_a_4_horas_de_Puerto_Natales%2C_Magallanes%2C_sur_de_Chile.jpg'
+    nombre: 'Magallanes',
+    atractivos: 'Torres del Paine',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Grandes_Lagos_Chilenos.jpg'
     },
 ];
 

@@ -13,52 +13,42 @@
     }
 
     .card {
-        align-items: center;
-        max-width:50%;
-        max-height:50%;
-        -webkit-border-top-left-radius: 43px;
-        -webkit-border-top-right-radius: 60px;
-        -webkit-border-bottom-right-radius: 11px;
-        -webkit-border-bottom-left-radius: 55px;
-        -moz-border-radius-topleft: 43px;
-        -moz-border-radius-topright: 60px;
-        -moz-border-radius-bottomright: 11px;
-        -moz-border-radius-bottomleft: 55px;
-        border-top-left-radius: 43px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 11px;
-        border-bottom-left-radius: 55px;
+      align-items: center;
+      max-width:50%;
+      max-height:50%;
+      -webkit-border-top-left-radius: 43px;
+      -webkit-border-top-right-radius: 60px;
+      -webkit-border-bottom-right-radius: 11px;
+      -webkit-border-bottom-left-radius: 55px;
+      -moz-border-radius-topleft: 43px;
+      -moz-border-radius-topright: 60px;
+      -moz-border-radius-bottomright: 11px;
+      -moz-border-radius-bottomleft: 55px;
+      border-top-left-radius: 43px;
+      border-top-right-radius: 60px;
+      border-bottom-right-radius: 11px;
+      border-bottom-left-radius: 55px;
     }
 
     .card-img-top {
       display: block;
       max-width:50%;
       max-height:50%;
-      -webkit-border-top-left-radius: 43px;
-        -webkit-border-top-right-radius: 60px;
-        -webkit-border-bottom-right-radius: 11px;
-        -webkit-border-bottom-left-radius: 55px;
-        -moz-border-radius-topleft: 43px;
-        -moz-border-radius-topright: 60px;
-        -moz-border-radius-bottomright: 11px;
-        -moz-border-radius-bottomleft: 55px;
-        border-top-left-radius: 43px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 11px;
-        border-bottom-left-radius: 55px;
       padding:1px;
       margin:2px;
+      border-radius:5px;
     }
-    
     .arriba {
       transform: scale(1.2);
     }
-
     .abajo {
       transform: scale(0.8);
     }
     .borde{
       border: 2px dotted red;
+    }
+    .letra{
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
   </style>
 </head>
@@ -86,11 +76,7 @@
     </map>
     <img src="https://aprotur.cl/wp-content/uploads/2020/07/sur.png" usemap="#mapa" >
   </div>
-
-
-
   <div class="container text-center">
-
     <div id="card" class="card">
       <img src="" class="card-img-top shadow" alt="">
       <div class="card-body">
@@ -98,7 +84,6 @@
         <p class="card-text" id="atractivos">Atractivos: </p>
       </div>
     </div>
-
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -115,15 +100,11 @@
     let cardText = `
     <img src="${regionesDeChile[index].img}" class="card-img-top shadow" alt="${regionesDeChile[index].nombre}">
     <div class="card-body">
-        <h5 class="card-title">Región: ${regionesDeChile[index].nombre}</h5>
-        <p class="card-text" id="atractivos">Atractivos: ${regionesDeChile[index].atractivos} </p>
+        <h5 class="card-title letra">Región: ${regionesDeChile[index].nombre}</h5>
+        <p class="card-text letra" id="atractivos">Atractivos: ${regionesDeChile[index].atractivos} </p>
     </div>
     `;
     $("#card").html(cardText);
     $("#card").show();
-
-
   })</script>
-
-
 </html>
